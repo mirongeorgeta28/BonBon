@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=EB+Garamond&family=Gloock&family=Great+Vibes&family=Lobster+Two&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+
+<section class="p3">
+    <h2>Frizerie-Coafură</h2>
+    <p>Secretul unei coafuri perfecte nu este doar look-ul în sine, ci este vorba despre cât de bine i se potriveste fiecăruia. Forma feței este cea mai importantă când vine vorba de alegerea coafurii. Cu toate acestea, există și alți factori ce ar influența o aparență plăcută, exemplu: </p>
+    <li>vârsta</li>
+    <li>imaginea/stilul</li>
+    <li>proporționalitatea corpului</li>
+    <li>date despre părul natural </li>
+    <p>Toate aceste lucruri sunt luate în considerare de stiliștii noștri, care sunt capabili să creeze o capodoperă echitabilă pentru client. Suntem, de asemenea, disponibili să răspundem la toate întrebările și neclaritățile din acest domeniu.</p>
+</section>
+
+<section class="p2"> 
+    <div class="row">
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\47.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img  src="C:\Users\Miron-PC\tekwill\Images\59.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\60.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\83.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\16.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\18.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\46.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\56.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\64.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\65.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="C:\Users\Miron-PC\tekwill\Images\86.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+        </div>
+    </div>           
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\47.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\59.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\60.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\83.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\16.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\18.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\46.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\56.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\64.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\65.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="C:\Users\Miron-PC\tekwill\Images\86.jpg">
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\47.jpg" style="width:100%" onclick="currentSlide(1)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\59.jpg" style="width:100%" onclick="currentSlide(2)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\60.jpg" style="width:100%" onclick="currentSlide(3)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\83.jpg" style="width:100%" onclick="currentSlide(4)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\16.jpg" style="width:100%" onclick="currentSlide(5)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\18.jpg" style="width:100%" onclick="currentSlide(6)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\46.jpg" style="width:100%" onclick="currentSlide(7)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\56.jpg" style="width:100%" onclick="currentSlide(8)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\64.jpg" style="width:100%" onclick="currentSlide(9)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\65.jpg" style="width:100%" onclick="currentSlide(10)" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Miron-PC\tekwill\Images\86.jpg" style="width:100%" onclick="currentSlide(11)" >
+            </div>
+        </div>
+    </div>
+</section>
+<script src="java.js"></script>
+
+<section>
+<div class="topnav" id="myTopnav">
+    <a href="C:\Users\Miron-PC\tekwill\section1.html" class="active">Frizerie-Coafură</a>
+    <a href="C:\Users\Miron-PC\tekwill\section2.html">Make-up</a>
+    <a href="C:\Users\Miron-PC\tekwill\section3.html">Epilare</a>
+    <a href="C:\Users\Miron-PC\tekwill\section4.html">Manichiură-Pedichiură</a>
+    <a href="C:\Users\Miron-PC\tekwill\section5.html">Tratamente corporale</a>
+    <a href="C:\Users\Miron-PC\tekwill\section6.html">Proceduri estetice</a>
+    <a href="javascript:void(0);" class="icon" onclick="primFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+</section>
+
+<nav class="navbar">
+    <a href="#"><img class="logo" src="images/logo.png"   alt=""></a>
+    <ul id="navLinks" class="nav-links">
+        <li><a  href="C:\Users\Miron-PC\tekwill\index.html">Acasă</a></li>
+        <li><a  href="C:\Users\Miron-PC\tekwill\Desprenoi.html">Despre noi</a></li>
+        <li><a  href="C:\Users\Miron-PC\tekwill\Servicii.html">Servicii</a></li>
+    </ul>
+    <button id="navToggleBtn" class="nav-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </button>
+</nav>
+<script src="java.js"></script>
+
+
+<section class="footer">
+    <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Adresa: </strong>Strada Codrilor 10/3, Chișinău 2069 </p>
+        <p><strong>Nr de telefon: </strong> 0693 00 067</p>
+        <p><strong>Instagram: </strong>bonbon_beauty.md</p>
+        <p><strong>Facebook: </strong>BonBon_beauty.md</p>
+        <p><strong>Gmail: </strong>natalia.rusu.1993@inbox.ru</p>
+        <div class="follow">
+            <h4>Urmărește-ne</h4>
+            <div class="icon">
+                <a href="https://m.facebook.com/BonBon_beautymd-110887088287610/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/bonbon_beauty.md/"><i class="fab fa-instagram"></i></a>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+        </div>        
+    
+    </div>
+    <div class="col">
+        <h4>Informații</h4>
+        <a href="C:\Users\Miron-PC\tekwill\index.html">Acasă</a>
+        <a href="C:\Users\Miron-PC\tekwill\Desprenoi.html">Despre noi</a>
+        <a href="C:\Users\Miron-PC\tekwill\Servicii.html">Servicii</a>
+    </div>
+    <div class="col">
+        <h4>BonBon Beauty Salon</h4>
+        <p>Salonul de frumusețe "BonBon" vă oferă o gamă largă de servicii de frizerie și cosmeteologie. Salonul este dotat cu echipament modern și cosmetică profesională de mărci renumite. Dar cel mai mult ne mândrim de meșterii noștri, care în fiecare zi demonstrează talent, experiență și calificație înaltă în munca sa. Vă așteptăm cu drag! </p>
+    </div>
+</section>
+
+</body>
+</html>
